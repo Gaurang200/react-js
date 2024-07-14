@@ -1,0 +1,41 @@
+.products{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+  gap: 23px;
+
+}
+.product_box{
+  background-color: rgb(220, 220, 220) !important;
+
+}
+.product_box_img{
+
+}
+
+.product_box_img img{
+  height: 200px !important;
+}
+
+
+.button_container {
+  padding: 10px;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.button_container > span{
+  padding: 15px 20px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.pagination__disable{
+  opacity: 0;
+}
+
+.pagination__selected{
+  background-color: rgb(220, 220, 220);
+}
